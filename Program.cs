@@ -50,6 +50,7 @@
             Console.ReadLine();
 
             Console.WriteLine("++++ESERCIZIO 3 CON ARRAY NUMERI++++");
+
             Console.WriteLine("Quanti numeri vuoi inserire (numero):");
             int numeroNumeri = int.Parse(Console.ReadLine());
             int[] numeri = new int[numeroNumeri];
