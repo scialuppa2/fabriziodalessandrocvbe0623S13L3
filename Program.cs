@@ -1,6 +1,7 @@
-﻿namespace esercizioS13L3
+﻿    using System;
+
+namespace esercizioS13L3
 {
-    using System;
 
     class Program
     {
@@ -10,10 +11,10 @@
 
             ContoCorrente mioConto = new ContoCorrente();
 
-            mioConto.ApriConto(1500);  // Conto aperto con successo
-            mioConto.Versamento(500);  // Versamento di 500 euro effettuato. Nuovo saldo: 2000 euro.
-            mioConto.Prelievo(1000);  // Prelevamento di 1000 euro effettuato. Nuovo saldo: 1000 euro.
-            mioConto.ControlloSaldo();  // Il saldo attuale è: 1000 euro.
+            mioConto.ApriConto(1500);
+            mioConto.Versamento(500);  
+            mioConto.Prelievo(1000); 
+            mioConto.ControlloSaldo();  
             Console.ReadLine();
 
             Console.WriteLine("++++ESERCIZIO 2 CON ARRAY NOMI++++");
